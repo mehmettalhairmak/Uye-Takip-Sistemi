@@ -29,5 +29,10 @@ namespace Uye_Takip_Sistemi
             dataGridView1.DataSource = dataTable;
             connection.Close();
         }
+
+        private void button5_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
