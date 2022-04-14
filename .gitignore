@@ -115,7 +115,7 @@ ipch/
 # Visual Studio profiler
 *.psess
 *.vsp
-*.vspx
+*.vspx.
 *.sap
 
 # Visual Studio Trace Files
@@ -262,9 +262,6 @@ ServiceFabricBackup/
 *.rptproj.bak
 
 # SQL Server files
-*.mdf
-*.ldf
-*.ndf
 
 # Business Intelligence projects
 *.rdl.data
