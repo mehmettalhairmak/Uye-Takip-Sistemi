@@ -47,8 +47,8 @@ namespace Uye_Takip_Sistemi
 
         private void button6_Click(object sender, EventArgs e)
         {
-            MainForm mainForm = new MainForm();
-            mainForm.Show();
+            Form1 LoginForm = new Form1();
+            LoginForm.Show();
             this.Hide();
         }
     }

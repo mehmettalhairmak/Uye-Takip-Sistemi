@@ -16,5 +16,21 @@ namespace Uye_Takip_Sistemi
         {
             InitializeComponent();
         }
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
+            timer1.Start();
+        }
+
+        private void timer1_Tick(object sender, EventArgs e)
+        {
+            panel3.Width += 5;
+
+            if (panel3.Width >= 735)
+            {
+                timer1.Stop();
+                panel1.Visible = false;
+            }
+        }
     }
 }

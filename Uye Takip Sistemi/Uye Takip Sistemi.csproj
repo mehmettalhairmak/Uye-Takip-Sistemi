@@ -47,6 +47,9 @@
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>animal-creative-dog-pet-shape-wolf-icon-6.ico</ApplicationIcon>
+  </PropertyGroup>
   <ItemGroup>
     <Reference Include="System">
       <HintPath>..\..\..\..\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.7.2\System.dll</HintPath>
@@ -152,6 +155,7 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="animal-creative-dog-pet-shape-wolf-icon-6.ico" />
     <Content Include="Uye Takip Sistemi.mdf">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
