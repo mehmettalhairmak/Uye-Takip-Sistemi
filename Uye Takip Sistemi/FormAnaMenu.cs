@@ -44,5 +44,12 @@ namespace Uye_Takip_Sistemi
         {
             fetchData();
         }
+
+        private void button6_Click(object sender, EventArgs e)
+        {
+            MainForm mainForm = new MainForm();
+            mainForm.Show();
+            this.Hide();
+        }
     }
 }
