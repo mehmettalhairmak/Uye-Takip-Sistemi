@@ -32,5 +32,15 @@ namespace Uye_Takip_Sistemi
                 panel1.Visible = false;
             }
         }
+
+      
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            MainForm MainForm = new MainForm();
+            MainForm.Show();
+            this.Close();
+
+        }
     }
 }
