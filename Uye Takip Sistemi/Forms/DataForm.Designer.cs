@@ -59,8 +59,8 @@ namespace Uye_Takip_Sistemi
             this.button4.FlatAppearance.BorderSize = 0;
             this.button4.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button4.ForeColor = System.Drawing.Color.White;
-            this.button4.Location = new System.Drawing.Point(352, 595);
-            this.button4.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.button4.Location = new System.Drawing.Point(353, 702);
+            this.button4.Margin = new System.Windows.Forms.Padding(4);
             this.button4.Name = "button4";
             this.button4.Size = new System.Drawing.Size(100, 28);
             this.button4.TabIndex = 63;
@@ -73,8 +73,8 @@ namespace Uye_Takip_Sistemi
             this.button3.FlatAppearance.BorderSize = 0;
             this.button3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button3.ForeColor = System.Drawing.Color.White;
-            this.button3.Location = new System.Drawing.Point(479, 595);
-            this.button3.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.button3.Location = new System.Drawing.Point(480, 702);
+            this.button3.Margin = new System.Windows.Forms.Padding(4);
             this.button3.Name = "button3";
             this.button3.Size = new System.Drawing.Size(100, 28);
             this.button3.TabIndex = 62;
@@ -87,8 +87,8 @@ namespace Uye_Takip_Sistemi
             this.button2.FlatAppearance.BorderSize = 0;
             this.button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button2.ForeColor = System.Drawing.Color.White;
-            this.button2.Location = new System.Drawing.Point(607, 595);
-            this.button2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.button2.Location = new System.Drawing.Point(608, 702);
+            this.button2.Margin = new System.Windows.Forms.Padding(4);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(100, 28);
             this.button2.TabIndex = 61;
@@ -97,7 +97,7 @@ namespace Uye_Takip_Sistemi
             // 
             // textBox8
             // 
-            this.textBox8.Location = new System.Drawing.Point(701, 527);
+            this.textBox8.Location = new System.Drawing.Point(702, 634);
             this.textBox8.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.textBox8.Name = "textBox8";
             this.textBox8.Size = new System.Drawing.Size(276, 22);
@@ -106,7 +106,7 @@ namespace Uye_Takip_Sistemi
             // label8
             // 
             this.label8.AutoSize = true;
-            this.label8.Location = new System.Drawing.Point(577, 530);
+            this.label8.Location = new System.Drawing.Point(578, 637);
             this.label8.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label8.Name = "label8";
             this.label8.Size = new System.Drawing.Size(100, 16);
@@ -115,7 +115,7 @@ namespace Uye_Takip_Sistemi
             // 
             // textBox7
             // 
-            this.textBox7.Location = new System.Drawing.Point(701, 488);
+            this.textBox7.Location = new System.Drawing.Point(702, 595);
             this.textBox7.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.textBox7.Name = "textBox7";
             this.textBox7.Size = new System.Drawing.Size(276, 22);
@@ -124,7 +124,7 @@ namespace Uye_Takip_Sistemi
             // label7
             // 
             this.label7.AutoSize = true;
-            this.label7.Location = new System.Drawing.Point(577, 491);
+            this.label7.Location = new System.Drawing.Point(578, 598);
             this.label7.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label7.Name = "label7";
             this.label7.Size = new System.Drawing.Size(36, 16);
@@ -134,7 +134,7 @@ namespace Uye_Takip_Sistemi
             // label6
             // 
             this.label6.AutoSize = true;
-            this.label6.Location = new System.Drawing.Point(577, 444);
+            this.label6.Location = new System.Drawing.Point(578, 551);
             this.label6.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(87, 16);
@@ -144,7 +144,7 @@ namespace Uye_Takip_Sistemi
             // label5
             // 
             this.label5.AutoSize = true;
-            this.label5.Location = new System.Drawing.Point(577, 401);
+            this.label5.Location = new System.Drawing.Point(578, 508);
             this.label5.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(73, 16);
@@ -154,7 +154,7 @@ namespace Uye_Takip_Sistemi
             // label4
             // 
             this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(202, 530);
+            this.label4.Location = new System.Drawing.Point(203, 637);
             this.label4.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(33, 16);
@@ -164,7 +164,7 @@ namespace Uye_Takip_Sistemi
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(202, 491);
+            this.label3.Location = new System.Drawing.Point(203, 598);
             this.label3.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(56, 16);
@@ -174,7 +174,7 @@ namespace Uye_Takip_Sistemi
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(202, 444);
+            this.label2.Location = new System.Drawing.Point(203, 551);
             this.label2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(51, 16);
@@ -184,7 +184,7 @@ namespace Uye_Takip_Sistemi
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(202, 401);
+            this.label1.Location = new System.Drawing.Point(203, 508);
             this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(28, 16);
@@ -193,7 +193,7 @@ namespace Uye_Takip_Sistemi
             // 
             // textBox5
             // 
-            this.textBox5.Location = new System.Drawing.Point(701, 441);
+            this.textBox5.Location = new System.Drawing.Point(702, 548);
             this.textBox5.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.textBox5.Name = "textBox5";
             this.textBox5.Size = new System.Drawing.Size(276, 22);
@@ -201,7 +201,7 @@ namespace Uye_Takip_Sistemi
             // 
             // textBox6
             // 
-            this.textBox6.Location = new System.Drawing.Point(701, 398);
+            this.textBox6.Location = new System.Drawing.Point(702, 505);
             this.textBox6.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.textBox6.Name = "textBox6";
             this.textBox6.Size = new System.Drawing.Size(276, 22);
@@ -209,7 +209,7 @@ namespace Uye_Takip_Sistemi
             // 
             // textBox3
             // 
-            this.textBox3.Location = new System.Drawing.Point(279, 527);
+            this.textBox3.Location = new System.Drawing.Point(280, 634);
             this.textBox3.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.textBox3.Name = "textBox3";
             this.textBox3.Size = new System.Drawing.Size(276, 22);
@@ -217,7 +217,7 @@ namespace Uye_Takip_Sistemi
             // 
             // textBox4
             // 
-            this.textBox4.Location = new System.Drawing.Point(279, 488);
+            this.textBox4.Location = new System.Drawing.Point(280, 595);
             this.textBox4.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.textBox4.Name = "textBox4";
             this.textBox4.Size = new System.Drawing.Size(276, 22);
@@ -226,7 +226,7 @@ namespace Uye_Takip_Sistemi
             // textBox2
             // 
             this.textBox2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.textBox2.Location = new System.Drawing.Point(279, 441);
+            this.textBox2.Location = new System.Drawing.Point(280, 548);
             this.textBox2.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.textBox2.Name = "textBox2";
             this.textBox2.Size = new System.Drawing.Size(276, 22);
@@ -235,7 +235,7 @@ namespace Uye_Takip_Sistemi
             // textBox1
             // 
             this.textBox1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.textBox1.Location = new System.Drawing.Point(279, 398);
+            this.textBox1.Location = new System.Drawing.Point(280, 505);
             this.textBox1.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.textBox1.Name = "textBox1";
             this.textBox1.Size = new System.Drawing.Size(276, 22);
@@ -247,8 +247,8 @@ namespace Uye_Takip_Sistemi
             this.button_goster.FlatAppearance.BorderSize = 0;
             this.button_goster.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button_goster.ForeColor = System.Drawing.Color.White;
-            this.button_goster.Location = new System.Drawing.Point(738, 595);
-            this.button_goster.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.button_goster.Location = new System.Drawing.Point(739, 702);
+            this.button_goster.Margin = new System.Windows.Forms.Padding(4);
             this.button_goster.Name = "button_goster";
             this.button_goster.Size = new System.Drawing.Size(100, 28);
             this.button_goster.TabIndex = 44;
@@ -261,16 +261,16 @@ namespace Uye_Takip_Sistemi
             this.dataGridView1.BackgroundColor = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(39)))), ((int)(((byte)(40)))));
             this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dataGridView1.Location = new System.Drawing.Point(56, 14);
-            this.dataGridView1.Margin = new System.Windows.Forms.Padding(5, 5, 5, 5);
+            this.dataGridView1.Margin = new System.Windows.Forms.Padding(5);
             this.dataGridView1.Name = "dataGridView1";
-            this.dataGridView1.Size = new System.Drawing.Size(1079, 319);
+            this.dataGridView1.Size = new System.Drawing.Size(1079, 444);
             this.dataGridView1.TabIndex = 43;
             // 
             // DataForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1287, 697);
+            this.ClientSize = new System.Drawing.Size(1287, 881);
             this.Controls.Add(this.button4);
             this.Controls.Add(this.button3);
             this.Controls.Add(this.button2);
@@ -293,7 +293,7 @@ namespace Uye_Takip_Sistemi
             this.Controls.Add(this.button_goster);
             this.Controls.Add(this.dataGridView1);
             this.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "DataForm";
             this.Text = "Form2";
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
