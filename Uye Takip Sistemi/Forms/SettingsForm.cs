@@ -16,5 +16,7 @@ namespace Uye_Takip_Sistemi
         {
             InitializeComponent();
         }
+
+      
     }
 }
