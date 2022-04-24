@@ -7,6 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using System.IO.Ports;
 
 namespace Uye_Takip_Sistemi
 {
@@ -16,5 +17,15 @@ namespace Uye_Takip_Sistemi
         {
             InitializeComponent();
         }
+
+        private void button4_Click(object sender, EventArgs e)
+        {
+
+        }
+
+       
+
+
+
     }
 }

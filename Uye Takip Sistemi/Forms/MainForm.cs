@@ -161,6 +161,10 @@ namespace Uye_Takip_Sistemi
             catch (Exception)
             {
                 MessageBox.Show("ERROR. Please be careful");
+                button10.Enabled = false;
+                button10.Visible = false;
+                button9.Enabled = true;
+                button9.Visible = true;
 
             }
 
