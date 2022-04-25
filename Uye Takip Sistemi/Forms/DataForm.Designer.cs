@@ -111,7 +111,7 @@ namespace Uye_Takip_Sistemi
             this.label8.Location = new System.Drawing.Point(536, 638);
             this.label8.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(100, 16);
+            this.label8.Size = new System.Drawing.Size(99, 16);
             this.label8.TabIndex = 59;
             this.label8.Text = "Erişim Seviyesi";
             // 
@@ -129,7 +129,7 @@ namespace Uye_Takip_Sistemi
             this.label7.Location = new System.Drawing.Point(536, 599);
             this.label7.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(36, 16);
+            this.label7.Size = new System.Drawing.Size(35, 16);
             this.label7.TabIndex = 57;
             this.label7.Text = "Sınıfı";
             // 
@@ -139,7 +139,7 @@ namespace Uye_Takip_Sistemi
             this.label6.Location = new System.Drawing.Point(536, 552);
             this.label6.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(87, 16);
+            this.label6.Size = new System.Drawing.Size(86, 16);
             this.label6.TabIndex = 56;
             this.label6.Text = "İletişim Kimlik";
             // 
@@ -149,7 +149,7 @@ namespace Uye_Takip_Sistemi
             this.label5.Location = new System.Drawing.Point(536, 509);
             this.label5.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(73, 16);
+            this.label5.Size = new System.Drawing.Size(72, 16);
             this.label5.TabIndex = 55;
             this.label5.Text = "İletişim No:";
             // 
@@ -159,7 +159,7 @@ namespace Uye_Takip_Sistemi
             this.label4.Location = new System.Drawing.Point(161, 638);
             this.label4.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(33, 16);
+            this.label4.Size = new System.Drawing.Size(32, 16);
             this.label4.TabIndex = 54;
             this.label4.Text = "Mail";
             // 
@@ -169,7 +169,7 @@ namespace Uye_Takip_Sistemi
             this.label3.Location = new System.Drawing.Point(161, 599);
             this.label3.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(56, 16);
+            this.label3.Size = new System.Drawing.Size(55, 16);
             this.label3.TabIndex = 53;
             this.label3.Text = "Numara";
             // 
@@ -179,7 +179,7 @@ namespace Uye_Takip_Sistemi
             this.label2.Location = new System.Drawing.Point(161, 552);
             this.label2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(51, 16);
+            this.label2.Size = new System.Drawing.Size(50, 16);
             this.label2.TabIndex = 52;
             this.label2.Text = "Soyadı";
             // 
@@ -189,7 +189,7 @@ namespace Uye_Takip_Sistemi
             this.label1.Location = new System.Drawing.Point(161, 509);
             this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(28, 16);
+            this.label1.Size = new System.Drawing.Size(27, 16);
             this.label1.TabIndex = 51;
             this.label1.Text = "Adı";
             // 
@@ -272,7 +272,7 @@ namespace Uye_Takip_Sistemi
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1444, 881);
+            this.ClientSize = new System.Drawing.Size(1370, 749);
             this.Controls.Add(this.button4);
             this.Controls.Add(this.button3);
             this.Controls.Add(this.button2);
@@ -299,6 +299,7 @@ namespace Uye_Takip_Sistemi
             this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "DataForm";
             this.Text = "Datas";
+            this.Load += new System.EventHandler(this.DataForm_Load);
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();

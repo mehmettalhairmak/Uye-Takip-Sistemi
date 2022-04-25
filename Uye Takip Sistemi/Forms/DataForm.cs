@@ -23,9 +23,8 @@ namespace Uye_Takip_Sistemi
 
         }
 
-       
-
-
-
+        private void DataForm_Load(object sender, EventArgs e)
+        {
+        }
     }
 }
