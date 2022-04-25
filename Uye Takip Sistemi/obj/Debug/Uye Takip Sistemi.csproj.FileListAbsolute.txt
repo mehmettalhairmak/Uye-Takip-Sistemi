@@ -15,3 +15,18 @@ C:\Uye-Takip-Sistemi\Uye Takip Sistemi\obj\Debug\Uye Takip Sistemi.csproj.Genera
 C:\Uye-Takip-Sistemi\Uye Takip Sistemi\obj\Debug\Uye Takip Sistemi.csproj.CoreCompileInputs.cache
 C:\Uye-Takip-Sistemi\Uye Takip Sistemi\obj\Debug\Uye Takip Sistemi.exe
 C:\Uye-Takip-Sistemi\Uye Takip Sistemi\obj\Debug\Uye Takip Sistemi.pdb
+C:\Users\Alperen Lermi\Uye-Takip-Sistemi\Uye Takip Sistemi\bin\Debug\Uye Takip Sistemi.exe.config
+C:\Users\Alperen Lermi\Uye-Takip-Sistemi\Uye Takip Sistemi\bin\Debug\Uye Takip Sistemi.exe
+C:\Users\Alperen Lermi\Uye-Takip-Sistemi\Uye Takip Sistemi\bin\Debug\Uye Takip Sistemi.pdb
+C:\Users\Alperen Lermi\Uye-Takip-Sistemi\Uye Takip Sistemi\obj\Debug\Uye Takip Sistemi.csproj.AssemblyReference.cache
+C:\Users\Alperen Lermi\Uye-Takip-Sistemi\Uye Takip Sistemi\obj\Debug\Uye_Takip_Sistemi.DataForm.resources
+C:\Users\Alperen Lermi\Uye-Takip-Sistemi\Uye Takip Sistemi\obj\Debug\Uye_Takip_Sistemi.MainForm.resources
+C:\Users\Alperen Lermi\Uye-Takip-Sistemi\Uye Takip Sistemi\obj\Debug\Uye_Takip_Sistemi.ProfileForm.resources
+C:\Users\Alperen Lermi\Uye-Takip-Sistemi\Uye Takip Sistemi\obj\Debug\Uye_Takip_Sistemi.SettingsForm.resources
+C:\Users\Alperen Lermi\Uye-Takip-Sistemi\Uye Takip Sistemi\obj\Debug\Uye_Takip_Sistemi.SituationForm.resources
+C:\Users\Alperen Lermi\Uye-Takip-Sistemi\Uye Takip Sistemi\obj\Debug\Uye_Takip_Sistemi.Properties.Resources.resources
+C:\Users\Alperen Lermi\Uye-Takip-Sistemi\Uye Takip Sistemi\obj\Debug\Uye Takip Sistemi.csproj.GenerateResource.cache
+C:\Users\Alperen Lermi\Uye-Takip-Sistemi\Uye Takip Sistemi\obj\Debug\Uye Takip Sistemi.csproj.CoreCompileInputs.cache
+C:\Users\Alperen Lermi\Uye-Takip-Sistemi\Uye Takip Sistemi\obj\Debug\Uye Takip Sistemi.exe
+C:\Users\Alperen Lermi\Uye-Takip-Sistemi\Uye Takip Sistemi\obj\Debug\Uye Takip Sistemi.pdb
+C:\Users\Alperen Lermi\Uye-Takip-Sistemi\Uye Takip Sistemi\obj\Debug\Uye_Takip_Sistemi.LoginForm.resources
