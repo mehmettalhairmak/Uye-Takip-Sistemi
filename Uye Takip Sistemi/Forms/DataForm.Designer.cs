@@ -124,7 +124,7 @@ namespace Uye_Takip_Sistemi
             this.dataGridView.Location = new System.Drawing.Point(78, 14);
             this.dataGridView.Margin = new System.Windows.Forms.Padding(5);
             this.dataGridView.Name = "dataGridView";
-            this.dataGridView.Size = new System.Drawing.Size(1013, 472);
+            this.dataGridView.Size = new System.Drawing.Size(1038, 472);
             this.dataGridView.TabIndex = 43;
             this.dataGridView.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridView_CellContentClick);
             // 

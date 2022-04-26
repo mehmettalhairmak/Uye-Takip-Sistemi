@@ -34,10 +34,17 @@ namespace Uye_Takip_Sistemi
 
         private string data;
 
+
       
 
             private void Form2_Load(object sender, EventArgs e)
         {
+
+
+
+
+
+
             string[] ports = SerialPort.GetPortNames();
 
             foreach (string port in ports)
@@ -57,18 +64,7 @@ namespace Uye_Takip_Sistemi
 
         private void displaydata(object sender, EventArgs e)
         {
-            connection = new SqlConnection(connectionString);
-            connection.Open();
-
-            adapter = new SqlDataAdapter(fetchDataString, connection);
-            dataTable = new DataTable();
-            adapter.Fill(dataTable);
-
-            connection.Close();
-
             textBox2.Text = data;
-
-            
 
 
 
@@ -80,6 +76,7 @@ namespace Uye_Takip_Sistemi
             {
                 MessageBox.Show("Serial connection is on.Please be careful.This situation can be dangerous.");
                 serialPort1.Close();
+                connection.Close();
 
             }
         }
