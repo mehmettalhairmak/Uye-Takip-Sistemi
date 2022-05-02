@@ -16,7 +16,7 @@ namespace Uye_Takip_Sistemi
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new FormAnaMenu());
+            Application.Run(new LoginForm());
         }
     }
 }

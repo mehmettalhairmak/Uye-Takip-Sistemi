@@ -9,6 +9,7 @@ using System.Threading.Tasks;
 using System.Windows.Forms;
 using System.IO.Ports;
 using System.Runtime.InteropServices;
+using System.Data.SqlClient;
 
 namespace Uye_Takip_Sistemi
 {
@@ -21,10 +22,29 @@ namespace Uye_Takip_Sistemi
             InitializeComponent();
         }
 
+        DataTable dataTable;
+        SqlCommand command;
+        SqlDataAdapter adapter;
+        SqlConnection connection;
+
+        readonly string connectionString = "Data Source=sql.dhs.com.tr\\MSSQLSERVER2019;Initial Catalog=altinba1_alperen;User ID=altinba1_alpy;Password=Alpy1453*";
+
+        readonly string fetchDataString = "SELECT * FROM Students";
+
+
         private string data;
 
-        private void Form2_Load(object sender, EventArgs e)
+
+      
+
+            private void Form2_Load(object sender, EventArgs e)
         {
+
+
+
+
+
+
             string[] ports = SerialPort.GetPortNames();
 
             foreach (string port in ports)
@@ -45,6 +65,9 @@ namespace Uye_Takip_Sistemi
         private void displaydata(object sender, EventArgs e)
         {
             textBox2.Text = data;
+
+
+
         }
 
         private void Form2_FormClosed(object sender, FormClosedEventArgs e)
@@ -53,16 +76,12 @@ namespace Uye_Takip_Sistemi
             {
                 MessageBox.Show("Serial connection is on.Please be careful.This situation can be dangerous.");
                 serialPort1.Close();
+                connection.Close();
 
             }
         }
 
-        private void button1_Click(object sender, EventArgs e)
-        {
-            FormAnaMenu anaform = new FormAnaMenu();
-            anaform.Show();
-            this.Close();
-        }
+    
 
         private void button4_Click(object sender, EventArgs e)
         {

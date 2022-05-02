@@ -91,7 +91,7 @@ namespace Uye_Takip_Sistemi
             this.textBox2.Location = new System.Drawing.Point(11, 462);
             this.textBox2.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(116, 21);
+            this.textBox2.Size = new System.Drawing.Size(238, 21);
             this.textBox2.TabIndex = 1;
             // 
             // button1
@@ -105,7 +105,6 @@ namespace Uye_Takip_Sistemi
             this.button1.Size = new System.Drawing.Size(29, 28);
             this.button1.TabIndex = 2;
             this.button1.UseVisualStyleBackColor = true;
-            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // panel1
             // 
@@ -173,7 +172,7 @@ namespace Uye_Takip_Sistemi
             this.label1.ForeColor = System.Drawing.Color.White;
             this.label1.Location = new System.Drawing.Point(147, 516);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(41, 16);
+            this.label1.Size = new System.Drawing.Size(40, 16);
             this.label1.TabIndex = 5;
             this.label1.Text = "label1";
             // 
@@ -346,9 +345,9 @@ namespace Uye_Takip_Sistemi
             // pictureBox1
             // 
             this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
-            this.pictureBox1.Location = new System.Drawing.Point(12, -35);
+            this.pictureBox1.Location = new System.Drawing.Point(37, -15);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(237, 236);
+            this.pictureBox1.Size = new System.Drawing.Size(190, 191);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox1.TabIndex = 0;
             this.pictureBox1.TabStop = false;

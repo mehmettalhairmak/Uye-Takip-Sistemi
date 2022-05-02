@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace Uye_Takip_Sistemi
 {
-    public partial class Form1 : Form
+    public partial class LoginForm : Form
     {
-        public Form1()
+        public LoginForm()
         {
             InitializeComponent();
         }
@@ -39,8 +39,10 @@ namespace Uye_Takip_Sistemi
         {
             MainForm MainForm = new MainForm();
             MainForm.Show();
-            this.Close();
+            this.Hide();
 
         }
+
+        
     }
 }
