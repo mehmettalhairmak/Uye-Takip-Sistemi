@@ -7,6 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using System.Data.SqlClient;
 
 namespace Uye_Takip_Sistemi
 {
@@ -16,6 +17,12 @@ namespace Uye_Takip_Sistemi
         {
             InitializeComponent();
         }
+        SqlCommand command;
+        SqlConnection connection;
+        SqlDataReader dataReader;
+
+        readonly string connectionString = "Data Source=sql.dhs.com.tr\\MSSQLSERVER2019;Initial Catalog=altinba1_alperen;User ID=altinba1_alpy;Password=Alpy1453*";
+        readonly string fetchUsers = "SELECT * FROM Users WHERE username=@username AND password=@password";
 
         private void Form1_Load(object sender, EventArgs e)
         {
@@ -33,16 +40,25 @@ namespace Uye_Takip_Sistemi
             }
         }
 
-      
-
-        private void button1_Click(object sender, EventArgs e)
+        private void button_login_Click(object sender, EventArgs e)
         {
-            MainForm MainForm = new MainForm();
-            MainForm.Show();
-            this.Hide();
-
+            connection = new SqlConnection(connectionString);
+            command = new SqlCommand(fetchUsers, connection);
+            command.Parameters.AddWithValue("@username", textBox_username.Text);
+            command.Parameters.AddWithValue("@password", textBox_password.Text);
+            connection.Open();
+            dataReader = command.ExecuteReader();
+            if (dataReader.Read())
+            {
+                MainForm MainForm = new MainForm();
+                MainForm.Show();
+                this.Hide();
+            }
+            else
+            {
+                MessageBox.Show("Kullanıcı adı veya şifre hatalı");
+            }
+            connection.Close();
         }
-
-        
     }
 }

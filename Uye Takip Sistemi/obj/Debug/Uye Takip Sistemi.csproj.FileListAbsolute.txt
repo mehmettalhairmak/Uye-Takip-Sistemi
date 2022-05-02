@@ -5,8 +5,6 @@ C:\Uye-Takip-Sistemi\Uye Takip Sistemi\obj\Debug\Uye Takip Sistemi.csproj.Assemb
 C:\Uye-Takip-Sistemi\Uye Takip Sistemi\obj\Debug\Uye Takip Sistemi.csproj.SuggestedBindingRedirects.cache
 C:\Uye-Takip-Sistemi\Uye Takip Sistemi\obj\Debug\Uye_Takip_Sistemi.DataForm.resources
 C:\Uye-Takip-Sistemi\Uye Takip Sistemi\obj\Debug\Uye_Takip_Sistemi.MainForm.resources
-C:\Uye-Takip-Sistemi\Uye Takip Sistemi\obj\Debug\Uye_Takip_Sistemi.FormAnaMenu.resources
-C:\Uye-Takip-Sistemi\Uye Takip Sistemi\obj\Debug\Uye_Takip_Sistemi.Form1.resources
 C:\Uye-Takip-Sistemi\Uye Takip Sistemi\obj\Debug\Uye_Takip_Sistemi.ProfileForm.resources
 C:\Uye-Takip-Sistemi\Uye Takip Sistemi\obj\Debug\Uye_Takip_Sistemi.SettingsForm.resources
 C:\Uye-Takip-Sistemi\Uye Takip Sistemi\obj\Debug\Uye_Takip_Sistemi.SituationForm.resources
@@ -46,3 +44,4 @@ C:\Users\enesm\Uye-Takip-Sistemi\Uye Takip Sistemi\obj\Debug\Uye Takip Sistemi.c
 C:\Users\enesm\Uye-Takip-Sistemi\Uye Takip Sistemi\obj\Debug\Uye Takip Sistemi.csproj.CoreCompileInputs.cache
 C:\Users\enesm\Uye-Takip-Sistemi\Uye Takip Sistemi\obj\Debug\Uye Takip Sistemi.exe
 C:\Users\enesm\Uye-Takip-Sistemi\Uye Takip Sistemi\obj\Debug\Uye Takip Sistemi.pdb
+C:\Uye-Takip-Sistemi\Uye Takip Sistemi\obj\Debug\Uye_Takip_Sistemi.LoginForm.resources
