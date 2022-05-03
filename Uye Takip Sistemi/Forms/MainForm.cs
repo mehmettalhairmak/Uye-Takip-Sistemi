@@ -27,7 +27,7 @@ namespace Uye_Takip_Sistemi
         SqlDataReader dataReader;
 
         readonly string connectionString = "Data Source=sql.dhs.com.tr\\MSSQLSERVER2019;Initial Catalog=altinba1_alperen;User ID=altinba1_alpy;Password=Alpy1453*";
-        readonly string fetchUsers = "SELECT * FROM Students WHERE student_identity_number = @identityNumber";
+        readonly string fetchUsers = "SELECT * FROM Students WHERE student_identity_number=@identityNumber ";
         
        
         private string data;
@@ -63,21 +63,7 @@ namespace Uye_Takip_Sistemi
         private void displaydata(object sender, EventArgs e)
         {
             textBox2.Text = data;
-            connection = new SqlConnection(connectionString);
-            command = new SqlCommand(fetchUsers, connection);
-            command.Parameters.AddWithValue("@identityNumber", textBox2.Text);
             
-            connection.Open();
-            dataReader = command.ExecuteReader();
-            if (dataReader.Read())
-            {
-                MessageBox.Show("Eşleşmesi başarılı");
-            }
-            else
-            {
-                MessageBox.Show("Veri Gönderilemedi");
-            }
-            connection.Close();
 
 
         }
@@ -225,6 +211,26 @@ namespace Uye_Takip_Sistemi
             this.panelDesktop.Tag = childform;
             childform.BringToFront();
             childform.Show();
+        }
+
+        private void button12_Click(object sender, EventArgs e)
+        {
+            connection = new SqlConnection(connectionString);
+            command = new SqlCommand(fetchUsers, connection);
+            command.CommandText = "SELECT *From Students WHERE student_identity_number='" + textBox2.Text + "'";
+
+
+            connection.Open();
+            dataReader = command.ExecuteReader();
+            if (dataReader.Read())
+            {
+                MessageBox.Show("Eşleşmesi başarılı");
+            }
+            else
+            {
+                MessageBox.Show("Veri Gönderilemedi");
+            }
+            connection.Close();
         }
     }
 }
