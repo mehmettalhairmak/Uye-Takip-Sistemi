@@ -142,7 +142,7 @@ namespace Uye_Takip_Sistemi
             this.panel1.Controls.Add(this.panel2);
             this.panel1.Location = new System.Drawing.Point(32, 25);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(806, 435);
+            this.panel1.Size = new System.Drawing.Size(256, 435);
             this.panel1.TabIndex = 8;
             // 
             // pictureBox2
