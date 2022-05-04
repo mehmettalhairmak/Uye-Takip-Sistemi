@@ -28,21 +28,11 @@ namespace Uye_Takip_Sistemi
 
         readonly string connectionString = "Data Source=sql.dhs.com.tr\\MSSQLSERVER2019;Initial Catalog=altinba1_alperen;User ID=altinba1_alpy;Password=Alpy1453*";
         readonly string fetchUsers = "SELECT * FROM Students WHERE student_identity_number=@identityNumber ";
-        
-       
+
         private string data;
 
-
-      
-
-            private void Form2_Load(object sender, EventArgs e)
+        private void Form2_Load(object sender, EventArgs e)
         {
-
-
-
-
-
-
             string[] ports = SerialPort.GetPortNames();
 
             foreach (string port in ports)
@@ -54,18 +44,31 @@ namespace Uye_Takip_Sistemi
             timer1.Start();
         }
 
+        private void displaydata(object sender, EventArgs e)
+        {
+            string localData = data;
+
+            connection = new SqlConnection(connectionString);
+            command = new SqlCommand("SELECT * From Students WHERE student_identity_number=@identityNumber", connection);
+            command.Parameters.AddWithValue("@identityNumber", localData);
+
+            connection.Open();
+            dataReader = command.ExecuteReader();
+            if (dataReader.Read())
+            {
+                MessageBox.Show("Eşleşmesi başarılı");
+            }
+            else
+            {
+                MessageBox.Show("Veri Gönderilemedi");
+            }
+            connection.Close();
+        }
+
         private void SerialPort_DataReceived(object sender, SerialDataReceivedEventArgs e)
         {
             data = serialPort1.ReadLine();
             this.Invoke(new EventHandler(displaydata));
-        }
-
-        private void displaydata(object sender, EventArgs e)
-        {
-            textBox2.Text = data;
-            
-
-
         }
 
         private void Form2_FormClosed(object sender, FormClosedEventArgs e)
@@ -79,8 +82,6 @@ namespace Uye_Takip_Sistemi
             }
         }
 
-    
-
         private void button4_Click(object sender, EventArgs e)
         {
             panel9.Visible = true;
@@ -88,7 +89,7 @@ namespace Uye_Takip_Sistemi
             panel11.Visible = false;
             panel12.Visible = false;
 
-            OpenChildForm(new ProfileForm(),sender);
+            OpenChildForm(new ProfileForm(), sender);
         }
 
         private void button6_Click(object sender, EventArgs e)
@@ -198,11 +199,11 @@ namespace Uye_Takip_Sistemi
 
         private void OpenChildForm(Form childform, object Btnsender)
         {
-            if (activeForm != null) 
+            if (activeForm != null)
             {
                 activeForm.Close();
             }
-            
+
             activeForm = childform;
             childform.TopLevel = false;
             childform.FormBorderStyle = FormBorderStyle.None;
@@ -211,26 +212,6 @@ namespace Uye_Takip_Sistemi
             this.panelDesktop.Tag = childform;
             childform.BringToFront();
             childform.Show();
-        }
-
-        private void button12_Click(object sender, EventArgs e)
-        {
-            connection = new SqlConnection(connectionString);
-            command = new SqlCommand(fetchUsers, connection);
-            command.CommandText = "SELECT *From Students WHERE student_identity_number='" + textBox2.Text + "'";
-
-
-            connection.Open();
-            dataReader = command.ExecuteReader();
-            if (dataReader.Read())
-            {
-                MessageBox.Show("Eşleşmesi başarılı");
-            }
-            else
-            {
-                MessageBox.Show("Veri Gönderilemedi");
-            }
-            connection.Close();
         }
     }
 }
