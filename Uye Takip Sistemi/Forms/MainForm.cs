@@ -26,10 +26,8 @@ namespace Uye_Takip_Sistemi
         SqlConnection connection;
         SqlDataReader dataReader;
 
-        readonly string connectionString = "Data Source=sql.dhs.com.tr\\MSSQLSERVER2019;Initial Catalog=altinba1_alperen;User ID=altinba1_alpy;Password=Alpy1453*";
-        readonly string fetchUsers = "SELECT * FROM Students WHERE student_identity_number=@identityNumber ";
-
         private string data;
+        readonly string connectionString = "Data Source=sql.dhs.com.tr\\MSSQLSERVER2019;Initial Catalog=altinba1_alperen;User ID=altinba1_alpy;Password=Alpy1453*";
 
         private void Form2_Load(object sender, EventArgs e)
         {
@@ -39,7 +37,6 @@ namespace Uye_Takip_Sistemi
             {
                 textBox1.Text = port;
             }
-
             serialPort1.DataReceived += new SerialDataReceivedEventHandler(SerialPort_DataReceived);
             timer1.Start();
         }
@@ -47,7 +44,6 @@ namespace Uye_Takip_Sistemi
         private void displaydata(object sender, EventArgs e)
         {
             string localData = data;
-
             localData = localData.Substring(0, localData.Length - 1);
 
             connection = new SqlConnection(connectionString);
@@ -70,7 +66,6 @@ namespace Uye_Takip_Sistemi
         private void SerialPort_DataReceived(object sender, SerialDataReceivedEventArgs e)
         {
             data = serialPort1.ReadLine();
-
             this.Invoke(new EventHandler(displaydata));
         }
 
@@ -81,7 +76,6 @@ namespace Uye_Takip_Sistemi
                 MessageBox.Show("Serial connection is on.Please be careful.This situation can be dangerous.");
                 serialPort1.Close();
                 connection.Close();
-
             }
         }
 
@@ -170,7 +164,6 @@ namespace Uye_Takip_Sistemi
             button10.Enabled = true;
             button10.Visible = true;
 
-
             try
             {
                 serialPort1.BaudRate = 9600;
@@ -186,7 +179,6 @@ namespace Uye_Takip_Sistemi
                 button10.Visible = false;
                 button9.Enabled = true;
                 button9.Visible = true;
-
             }
 
         }
@@ -206,7 +198,6 @@ namespace Uye_Takip_Sistemi
             {
                 activeForm.Close();
             }
-
             activeForm = childform;
             childform.TopLevel = false;
             childform.FormBorderStyle = FormBorderStyle.None;

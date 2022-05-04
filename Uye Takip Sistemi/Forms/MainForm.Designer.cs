@@ -34,6 +34,7 @@ namespace Uye_Takip_Sistemi
             this.serialPort1 = new System.IO.Ports.SerialPort(this.components);
             this.button1 = new System.Windows.Forms.Button();
             this.panel1 = new System.Windows.Forms.Panel();
+            this.textBox1 = new System.Windows.Forms.TextBox();
             this.button11 = new System.Windows.Forms.Button();
             this.button9 = new System.Windows.Forms.Button();
             this.button10 = new System.Windows.Forms.Button();
@@ -59,7 +60,6 @@ namespace Uye_Takip_Sistemi
             this.panelDesktop = new System.Windows.Forms.Panel();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.timer1 = new System.Windows.Forms.Timer(this.components);
-            this.textBox1 = new System.Windows.Forms.TextBox();
             this.panel1.SuspendLayout();
             this.panel8.SuspendLayout();
             this.panel7.SuspendLayout();
@@ -103,6 +103,17 @@ namespace Uye_Takip_Sistemi
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(269, 542);
             this.panel1.TabIndex = 3;
+            // 
+            // textBox1
+            // 
+            this.textBox1.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
+            this.textBox1.Enabled = false;
+            this.textBox1.Location = new System.Drawing.Point(133, 462);
+            this.textBox1.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.textBox1.Name = "textBox1";
+            this.textBox1.Size = new System.Drawing.Size(116, 21);
+            this.textBox1.TabIndex = 0;
+            this.textBox1.Visible = false;
             // 
             // button11
             // 
@@ -386,6 +397,7 @@ namespace Uye_Takip_Sistemi
             // 
             // panelDesktop
             // 
+            this.panelDesktop.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.panelDesktop.Controls.Add(this.pictureBox2);
             this.panelDesktop.Dock = System.Windows.Forms.DockStyle.Fill;
             this.panelDesktop.Location = new System.Drawing.Point(269, 53);
@@ -397,7 +409,7 @@ namespace Uye_Takip_Sistemi
             // 
             this.pictureBox2.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.pictureBox2.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox2.Image")));
-            this.pictureBox2.Location = new System.Drawing.Point(134, 27);
+            this.pictureBox2.Location = new System.Drawing.Point(133, 26);
             this.pictureBox2.Name = "pictureBox2";
             this.pictureBox2.Size = new System.Drawing.Size(489, 403);
             this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
@@ -408,17 +420,6 @@ namespace Uye_Takip_Sistemi
             // 
             this.timer1.Interval = 1;
             this.timer1.Tick += new System.EventHandler(this.timer1_Tick);
-            // 
-            // textBox1
-            // 
-            this.textBox1.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
-            this.textBox1.Enabled = false;
-            this.textBox1.Location = new System.Drawing.Point(133, 462);
-            this.textBox1.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(116, 21);
-            this.textBox1.TabIndex = 0;
-            this.textBox1.Visible = false;
             // 
             // MainForm
             // 

@@ -62,7 +62,7 @@ namespace Uye_Takip_Sistemi
             this.button_sil.FlatAppearance.BorderSize = 0;
             this.button_sil.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button_sil.ForeColor = System.Drawing.Color.White;
-            this.button_sil.Location = new System.Drawing.Point(348, 678);
+            this.button_sil.Location = new System.Drawing.Point(325, 669);
             this.button_sil.Margin = new System.Windows.Forms.Padding(4);
             this.button_sil.Name = "button_sil";
             this.button_sil.Size = new System.Drawing.Size(100, 30);
@@ -77,7 +77,7 @@ namespace Uye_Takip_Sistemi
             this.button_guncelle.FlatAppearance.BorderSize = 0;
             this.button_guncelle.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button_guncelle.ForeColor = System.Drawing.Color.White;
-            this.button_guncelle.Location = new System.Drawing.Point(475, 678);
+            this.button_guncelle.Location = new System.Drawing.Point(450, 669);
             this.button_guncelle.Margin = new System.Windows.Forms.Padding(4);
             this.button_guncelle.Name = "button_guncelle";
             this.button_guncelle.Size = new System.Drawing.Size(100, 30);
@@ -92,7 +92,7 @@ namespace Uye_Takip_Sistemi
             this.button_ekle.FlatAppearance.BorderSize = 0;
             this.button_ekle.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button_ekle.ForeColor = System.Drawing.Color.White;
-            this.button_ekle.Location = new System.Drawing.Point(603, 678);
+            this.button_ekle.Location = new System.Drawing.Point(575, 669);
             this.button_ekle.Margin = new System.Windows.Forms.Padding(4);
             this.button_ekle.Name = "button_ekle";
             this.button_ekle.Size = new System.Drawing.Size(100, 30);
@@ -107,7 +107,7 @@ namespace Uye_Takip_Sistemi
             this.button_goster.FlatAppearance.BorderSize = 0;
             this.button_goster.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button_goster.ForeColor = System.Drawing.Color.White;
-            this.button_goster.Location = new System.Drawing.Point(734, 678);
+            this.button_goster.Location = new System.Drawing.Point(700, 669);
             this.button_goster.Margin = new System.Windows.Forms.Padding(4);
             this.button_goster.Name = "button_goster";
             this.button_goster.Size = new System.Drawing.Size(100, 30);
@@ -121,16 +121,16 @@ namespace Uye_Takip_Sistemi
             this.dataGridView.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.DisplayedCells;
             this.dataGridView.BackgroundColor = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(39)))), ((int)(((byte)(40)))));
             this.dataGridView.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView.Location = new System.Drawing.Point(78, 14);
+            this.dataGridView.Location = new System.Drawing.Point(14, 14);
             this.dataGridView.Margin = new System.Windows.Forms.Padding(5);
             this.dataGridView.Name = "dataGridView";
-            this.dataGridView.Size = new System.Drawing.Size(1038, 472);
+            this.dataGridView.Size = new System.Drawing.Size(1070, 472);
             this.dataGridView.TabIndex = 43;
             this.dataGridView.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridView_CellContentClick);
             // 
             // textBox_egitimSeviyesi
             // 
-            this.textBox_egitimSeviyesi.Location = new System.Drawing.Point(690, 608);
+            this.textBox_egitimSeviyesi.Location = new System.Drawing.Point(669, 603);
             this.textBox_egitimSeviyesi.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.textBox_egitimSeviyesi.Name = "textBox_egitimSeviyesi";
             this.textBox_egitimSeviyesi.Size = new System.Drawing.Size(208, 23);
@@ -139,7 +139,7 @@ namespace Uye_Takip_Sistemi
             // label8
             // 
             this.label8.AutoSize = true;
-            this.label8.Location = new System.Drawing.Point(581, 611);
+            this.label8.Location = new System.Drawing.Point(560, 606);
             this.label8.Name = "label8";
             this.label8.Size = new System.Drawing.Size(99, 17);
             this.label8.TabIndex = 1016;
@@ -147,7 +147,7 @@ namespace Uye_Takip_Sistemi
             // 
             // textBox_sinif
             // 
-            this.textBox_sinif.Location = new System.Drawing.Point(330, 608);
+            this.textBox_sinif.Location = new System.Drawing.Point(309, 603);
             this.textBox_sinif.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.textBox_sinif.Name = "textBox_sinif";
             this.textBox_sinif.Size = new System.Drawing.Size(208, 23);
@@ -156,7 +156,7 @@ namespace Uye_Takip_Sistemi
             // label7
             // 
             this.label7.AutoSize = true;
-            this.label7.Location = new System.Drawing.Point(263, 611);
+            this.label7.Location = new System.Drawing.Point(242, 606);
             this.label7.Name = "label7";
             this.label7.Size = new System.Drawing.Size(35, 17);
             this.label7.TabIndex = 1015;
@@ -165,7 +165,7 @@ namespace Uye_Takip_Sistemi
             // label6
             // 
             this.label6.AutoSize = true;
-            this.label6.Location = new System.Drawing.Point(581, 578);
+            this.label6.Location = new System.Drawing.Point(560, 573);
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(65, 17);
             this.label6.TabIndex = 1014;
@@ -174,7 +174,7 @@ namespace Uye_Takip_Sistemi
             // label5
             // 
             this.label5.AutoSize = true;
-            this.label5.Location = new System.Drawing.Point(581, 545);
+            this.label5.Location = new System.Drawing.Point(560, 540);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(74, 17);
             this.label5.TabIndex = 1013;
@@ -183,7 +183,7 @@ namespace Uye_Takip_Sistemi
             // label4
             // 
             this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(581, 512);
+            this.label4.Location = new System.Drawing.Point(560, 507);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(34, 17);
             this.label4.TabIndex = 1012;
@@ -192,7 +192,7 @@ namespace Uye_Takip_Sistemi
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(263, 579);
+            this.label3.Location = new System.Drawing.Point(242, 574);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(61, 17);
             this.label3.TabIndex = 1011;
@@ -201,7 +201,7 @@ namespace Uye_Takip_Sistemi
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(263, 547);
+            this.label2.Location = new System.Drawing.Point(242, 542);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(50, 17);
             this.label2.TabIndex = 1010;
@@ -210,7 +210,7 @@ namespace Uye_Takip_Sistemi
             // label9
             // 
             this.label9.AutoSize = true;
-            this.label9.Location = new System.Drawing.Point(319, 388);
+            this.label9.Location = new System.Drawing.Point(256, 388);
             this.label9.Name = "label9";
             this.label9.Size = new System.Drawing.Size(21, 17);
             this.label9.TabIndex = 1008;
@@ -220,7 +220,7 @@ namespace Uye_Takip_Sistemi
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(263, 515);
+            this.label1.Location = new System.Drawing.Point(242, 510);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(29, 17);
             this.label1.TabIndex = 1009;
@@ -228,7 +228,7 @@ namespace Uye_Takip_Sistemi
             // 
             // textBox_tcKimlik
             // 
-            this.textBox_tcKimlik.Location = new System.Drawing.Point(690, 575);
+            this.textBox_tcKimlik.Location = new System.Drawing.Point(669, 570);
             this.textBox_tcKimlik.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.textBox_tcKimlik.Name = "textBox_tcKimlik";
             this.textBox_tcKimlik.Size = new System.Drawing.Size(208, 23);
@@ -236,7 +236,7 @@ namespace Uye_Takip_Sistemi
             // 
             // textBox_iletisimNo
             // 
-            this.textBox_iletisimNo.Location = new System.Drawing.Point(690, 542);
+            this.textBox_iletisimNo.Location = new System.Drawing.Point(669, 537);
             this.textBox_iletisimNo.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.textBox_iletisimNo.Name = "textBox_iletisimNo";
             this.textBox_iletisimNo.Size = new System.Drawing.Size(208, 23);
@@ -244,7 +244,7 @@ namespace Uye_Takip_Sistemi
             // 
             // textBox_mail
             // 
-            this.textBox_mail.Location = new System.Drawing.Point(690, 509);
+            this.textBox_mail.Location = new System.Drawing.Point(669, 504);
             this.textBox_mail.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.textBox_mail.Name = "textBox_mail";
             this.textBox_mail.Size = new System.Drawing.Size(208, 23);
@@ -252,7 +252,7 @@ namespace Uye_Takip_Sistemi
             // 
             // textBox_numara
             // 
-            this.textBox_numara.Location = new System.Drawing.Point(330, 576);
+            this.textBox_numara.Location = new System.Drawing.Point(309, 571);
             this.textBox_numara.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.textBox_numara.Name = "textBox_numara";
             this.textBox_numara.Size = new System.Drawing.Size(208, 23);
@@ -260,7 +260,7 @@ namespace Uye_Takip_Sistemi
             // 
             // textBox_soyad
             // 
-            this.textBox_soyad.Location = new System.Drawing.Point(330, 544);
+            this.textBox_soyad.Location = new System.Drawing.Point(309, 539);
             this.textBox_soyad.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.textBox_soyad.Name = "textBox_soyad";
             this.textBox_soyad.Size = new System.Drawing.Size(208, 23);
@@ -268,7 +268,7 @@ namespace Uye_Takip_Sistemi
             // 
             // textBox_id
             // 
-            this.textBox_id.Location = new System.Drawing.Point(386, 385);
+            this.textBox_id.Location = new System.Drawing.Point(323, 385);
             this.textBox_id.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.textBox_id.Name = "textBox_id";
             this.textBox_id.ReadOnly = true;
@@ -278,7 +278,7 @@ namespace Uye_Takip_Sistemi
             // 
             // textBox_ad
             // 
-            this.textBox_ad.Location = new System.Drawing.Point(330, 512);
+            this.textBox_ad.Location = new System.Drawing.Point(309, 507);
             this.textBox_ad.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.textBox_ad.Name = "textBox_ad";
             this.textBox_ad.Size = new System.Drawing.Size(208, 23);
@@ -288,7 +288,7 @@ namespace Uye_Takip_Sistemi
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 17F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1370, 796);
+            this.ClientSize = new System.Drawing.Size(1098, 712);
             this.Controls.Add(this.textBox_egitimSeviyesi);
             this.Controls.Add(this.label8);
             this.Controls.Add(this.textBox_sinif);
