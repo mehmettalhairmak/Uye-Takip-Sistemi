@@ -47,7 +47,6 @@ namespace Uye_Takip_Sistemi
         private void displaydata(object sender, EventArgs e)
         {
             string localData = data;
-
             connection = new SqlConnection(connectionString);
             command = new SqlCommand("SELECT * From Students WHERE student_identity_number=@identityNumber", connection);
             command.Parameters.AddWithValue("@identityNumber", localData);
@@ -68,6 +67,7 @@ namespace Uye_Takip_Sistemi
         private void SerialPort_DataReceived(object sender, SerialDataReceivedEventArgs e)
         {
             data = serialPort1.ReadLine();
+
             this.Invoke(new EventHandler(displaydata));
         }
 
