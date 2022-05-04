@@ -47,6 +47,7 @@ namespace Uye_Takip_Sistemi
         private void displaydata(object sender, EventArgs e)
         {
             string localData = data;
+            localData = localData.Substring(0, localData.Length - 1);
 
             connection = new SqlConnection(connectionString);
             command = new SqlCommand("SELECT * From Students WHERE student_identity_number=@identityNumber", connection);
