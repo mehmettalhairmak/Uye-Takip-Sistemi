@@ -5,6 +5,7 @@ using System.Data;
 using System.Drawing;
 using System.Linq;
 using System.Text;
+using System.Threading;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using System.IO.Ports;
@@ -26,8 +27,12 @@ namespace Uye_Takip_Sistemi
         SqlConnection connection;
         SqlDataReader dataReader;
 
-        private string data;
         readonly string connectionString = "Data Source=sql.dhs.com.tr\\MSSQLSERVER2019;Initial Catalog=altinba1_alperen;User ID=altinba1_alpy;Password=Alpy1453*";
+        readonly string fetchUsers = "SELECT * FROM Students WHERE student_identity_number=@identityNumber ";
+
+        private string data;
+
+        string gonderilen_deger;
 
         private void Form2_Load(object sender, EventArgs e)
         {
@@ -37,8 +42,10 @@ namespace Uye_Takip_Sistemi
             {
                 textBox1.Text = port;
             }
+
             serialPort1.DataReceived += new SerialDataReceivedEventHandler(SerialPort_DataReceived);
-            timer1.Start();
+            timer.Start();
+            
         }
 
         private void displaydata(object sender, EventArgs e)
@@ -50,15 +57,27 @@ namespace Uye_Takip_Sistemi
             command = new SqlCommand("SELECT * From Students WHERE student_identity_number=@identityNumber", connection);
             command.Parameters.AddWithValue("@identityNumber", localData);
 
+ 
+
             connection.Open();
             dataReader = command.ExecuteReader();
             if (dataReader.Read())
             {
-                MessageBox.Show("Eşleşmesi başarılı");
+
+
+                serialPort1.Write("1");
+               
+                MessageBox.Show("1 değeri gönderildi");
+                
             }
+           
             else
             {
-                MessageBox.Show("Veri Gönderilemedi");
+                serialPort1.Write("0");
+
+
+                MessageBox.Show("0 değeri gönderildi");
+                
             }
             connection.Close();
         }
@@ -76,6 +95,7 @@ namespace Uye_Takip_Sistemi
                 MessageBox.Show("Serial connection is on.Please be careful.This situation can be dangerous.");
                 serialPort1.Close();
                 connection.Close();
+
             }
         }
 
@@ -164,6 +184,7 @@ namespace Uye_Takip_Sistemi
             button10.Enabled = true;
             button10.Visible = true;
 
+
             try
             {
                 serialPort1.BaudRate = 9600;
@@ -179,6 +200,7 @@ namespace Uye_Takip_Sistemi
                 button10.Visible = false;
                 button9.Enabled = true;
                 button9.Visible = true;
+
             }
 
         }
@@ -198,6 +220,7 @@ namespace Uye_Takip_Sistemi
             {
                 activeForm.Close();
             }
+
             activeForm = childform;
             childform.TopLevel = false;
             childform.FormBorderStyle = FormBorderStyle.None;
@@ -207,5 +230,7 @@ namespace Uye_Takip_Sistemi
             childform.BringToFront();
             childform.Show();
         }
+
+  
     }
 }

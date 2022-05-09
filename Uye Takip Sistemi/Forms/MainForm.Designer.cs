@@ -34,6 +34,7 @@ namespace Uye_Takip_Sistemi
             this.serialPort1 = new System.IO.Ports.SerialPort(this.components);
             this.button1 = new System.Windows.Forms.Button();
             this.panel1 = new System.Windows.Forms.Panel();
+            this.textBox2 = new System.Windows.Forms.TextBox();
             this.textBox1 = new System.Windows.Forms.TextBox();
             this.button11 = new System.Windows.Forms.Button();
             this.button9 = new System.Windows.Forms.Button();
@@ -59,7 +60,7 @@ namespace Uye_Takip_Sistemi
             this.button2 = new System.Windows.Forms.Button();
             this.panelDesktop = new System.Windows.Forms.Panel();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
-            this.timer1 = new System.Windows.Forms.Timer(this.components);
+            this.timer = new System.Windows.Forms.Timer(this.components);
             this.panel1.SuspendLayout();
             this.panel8.SuspendLayout();
             this.panel7.SuspendLayout();
@@ -87,6 +88,7 @@ namespace Uye_Takip_Sistemi
             // panel1
             // 
             this.panel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(39)))), ((int)(((byte)(40)))));
+            this.panel1.Controls.Add(this.textBox2);
             this.panel1.Controls.Add(this.textBox1);
             this.panel1.Controls.Add(this.button11);
             this.panel1.Controls.Add(this.button9);
@@ -103,6 +105,15 @@ namespace Uye_Takip_Sistemi
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(269, 542);
             this.panel1.TabIndex = 3;
+            // 
+            // textBox2
+            // 
+            this.textBox2.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
+            this.textBox2.Location = new System.Drawing.Point(3, 362);
+            this.textBox2.Multiline = true;
+            this.textBox2.Name = "textBox2";
+            this.textBox2.Size = new System.Drawing.Size(260, 139);
+            this.textBox2.TabIndex = 8;
             // 
             // textBox1
             // 
@@ -160,7 +171,7 @@ namespace Uye_Takip_Sistemi
             this.label1.ForeColor = System.Drawing.Color.White;
             this.label1.Location = new System.Drawing.Point(147, 516);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(40, 16);
+            this.label1.Size = new System.Drawing.Size(41, 16);
             this.label1.TabIndex = 5;
             this.label1.Text = "label1";
             // 
@@ -397,7 +408,6 @@ namespace Uye_Takip_Sistemi
             // 
             // panelDesktop
             // 
-            this.panelDesktop.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.panelDesktop.Controls.Add(this.pictureBox2);
             this.panelDesktop.Dock = System.Windows.Forms.DockStyle.Fill;
             this.panelDesktop.Location = new System.Drawing.Point(269, 53);
@@ -409,17 +419,17 @@ namespace Uye_Takip_Sistemi
             // 
             this.pictureBox2.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.pictureBox2.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox2.Image")));
-            this.pictureBox2.Location = new System.Drawing.Point(133, 26);
+            this.pictureBox2.Location = new System.Drawing.Point(134, 27);
             this.pictureBox2.Name = "pictureBox2";
             this.pictureBox2.Size = new System.Drawing.Size(489, 403);
             this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
             this.pictureBox2.TabIndex = 7;
             this.pictureBox2.TabStop = false;
             // 
-            // timer1
+            // timer
             // 
-            this.timer1.Interval = 1;
-            this.timer1.Tick += new System.EventHandler(this.timer1_Tick);
+            this.timer.Interval = 1;
+            this.timer.Tick += new System.EventHandler(this.timer1_Tick);
             // 
             // MainForm
             // 
@@ -473,7 +483,7 @@ namespace Uye_Takip_Sistemi
         private System.Windows.Forms.Panel panel9;
         private System.Windows.Forms.Button button4;
         private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.Timer timer1;
+        private System.Windows.Forms.Timer timer;
         private System.Windows.Forms.Button button2;
         private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.Button button8;
@@ -483,5 +493,6 @@ namespace Uye_Takip_Sistemi
         private System.Windows.Forms.PictureBox pictureBox2;
         private System.Windows.Forms.Button button11;
         private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.TextBox textBox2;
     }
 }

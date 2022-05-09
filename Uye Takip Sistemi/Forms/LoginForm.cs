@@ -60,5 +60,10 @@ namespace Uye_Takip_Sistemi
             }
             connection.Close();
         }
+
+        private void button_back_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
