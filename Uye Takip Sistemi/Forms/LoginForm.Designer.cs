@@ -72,6 +72,7 @@ namespace Uye_Takip_Sistemi
             this.textBox_password.Location = new System.Drawing.Point(496, 222);
             this.textBox_password.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.textBox_password.Name = "textBox_password";
+            this.textBox_password.PasswordChar = '*';
             this.textBox_password.Size = new System.Drawing.Size(226, 23);
             this.textBox_password.TabIndex = 2;
             // 
@@ -142,7 +143,7 @@ namespace Uye_Takip_Sistemi
             this.panel1.Controls.Add(this.panel2);
             this.panel1.Location = new System.Drawing.Point(32, 25);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(256, 435);
+            this.panel1.Size = new System.Drawing.Size(811, 435);
             this.panel1.TabIndex = 8;
             // 
             // pictureBox2

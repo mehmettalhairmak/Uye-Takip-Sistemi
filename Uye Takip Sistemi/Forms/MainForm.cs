@@ -54,11 +54,13 @@ namespace Uye_Takip_Sistemi
             dataReader = command.ExecuteReader();
             if (dataReader.Read())
             {
-                MessageBox.Show("Eşleşmesi başarılı");
+                serialPort1.Write("1");
+
+
             }
             else
             {
-                MessageBox.Show("Veri Gönderilemedi");
+                serialPort1.Write("0");
             }
             connection.Close();
         }
